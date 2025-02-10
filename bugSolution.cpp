@@ -1,0 +1,3 @@
+int main() { int *ptr = new int; *ptr = 10; // Use dynamic memory allocation 
+// ... use *ptr ... 
+delete ptr; ptr = nullptr; return 0; }
